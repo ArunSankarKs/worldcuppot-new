@@ -15,40 +15,34 @@ import Slider from "react-slick";
 export default class Teams extends React.Component {
   render() {
     var settings = {
-      dots: true,
       arrows: false,
+      dots: true,  
       infinite: false,
       centerPadding: "10%",
       speed: 500,
       slidesToShow: 2,
       slidesToScroll: 1,
       initialSlide: 0,
-      responsive: [
-        {
-          breakpoint: 1024,
-          settings: {
-            slidesToShow: 2,
-            slidesToScroll: 1,
-            infinite: true,
-            dots: true
-          }
+      responsive: [{
+        breakpoint:1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          initialSlide: 1,
+          centerPadding: "0%",
+          arrows: true,
+          dots: false,   
         },
-        {
-          breakpoint: 600,
-          settings: {
-            slidesToShow: 2,
-            slidesToScroll: 2,
-            initialSlide: 2
-          }
-        },
-        {
-          breakpoint: 480,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1
-          }
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          initialSlide: 1,
+          centerPadding: "0%",
+          arrows: true,
+          dots: false, 
         }
-      ]
+      }]
     };
     return (
       <div className='container-fluid'>
@@ -107,22 +101,43 @@ export default class Teams extends React.Component {
                            </div>
                           </div>
                           <div>
-                            <h3>3</h3>
+                           <div className='d-flex justify-content-between'>
+                            <div className='mr-lg-5'>
+                            <div className='img-circle'>
+                              <img src={team1}  className="img-fluid"/>
+                            </div>
+                            </div>                           
+                            <div className='pr-lg-5'>
+                              <div className='name mb-2'>Jeffry Brown</div>
+                              <div className='destination mb-3'>creative leader</div>
+                              <div className='mb-3 desc'>Quisque aliquam eleifend purus, mattis scelerisque dolor sodales eget. Nulla orci tortor, posuere nec imperdiet id, molestie ac magna.</div>
+                              <ul className='d-flex socials-icon'>
+                                <li><a href='javascript:;'><i className="fa fa-twitter fa-1x mr-3"/></a></li>
+                                <li><a href='javascript:;'><i className="fa fa-twitter fa-1x mr-3"/></a></li>
+                                <li><a href='javascript:;'><i className="fa fa-telegram fa-1x mr-3"/></a></li>
+                              </ul>
+                            </div>
+                           </div>
                           </div>
                           <div>
-                            <h3>4</h3>
-                          </div>
-                          <div>
-                            <h3>5</h3>
-                          </div>
-                          <div>
-                            <h3>6</h3>
-                          </div>
-                          <div>
-                            <h3>7</h3>
-                          </div>
-                          <div>
-                            <h3>8</h3>
+                          <div className='d-flex'>
+                            <div className='mr-lg-5'>
+                            <div className='img-circle'>
+                              <img src={team2}  className="img-fluid"/>
+                            </div>
+                            </div>
+                           
+                            <div>
+                              <div className='name mb-2'>Jeffry Greev</div>
+                              <div className='destination mb-3'>creative leader</div>
+                              <div className='mb-3 desc'>Quisque aliquam eleifend purus, mattis scelerisque dolor sodales eget. Nulla orci tortor, posuere nec imperdiet id, molestie ac magna.</div>
+                              <ul className='d-flex socials-icon'>
+                                <li><a href='javascript:;'><i className="fa fa-twitter fa-1x mr-3"/></a></li>
+                                <li><a href='javascript:;'><i className="fa fa-twitter fa-1x mr-3"/></a></li>
+                                <li><a href='javascript:;'><i className="fa fa-telegram fa-1x mr-3"/></a></li>
+                              </ul>
+                            </div>
+                           </div>
                           </div>
                         </Slider>
                         </div>
