@@ -730,6 +730,88 @@ color: #FFE357;
 		color: #FFE357;
 	}
 }
+.slick-prev:before, .slick-next:before {
+	color: #FFE357;
+}
+.slick-dots {
+	bottom: -50px;
+	li button:before,
+	li.slick-active button:before {
+	  color: transparent;
+	  opacity: 1;
+	}
+	li button:before{
+	  background-color: transparent;
+	  border: 2px solid #FFE357;
+	  border-radius: 50%;
+	  display: inline-block;
+	  height: 20px;
+	  width: 20px;
+  
+	}
+	li.slick-active button:before {
+	  background-color: #FFE357;
+	}
+  }
+
+// About
+.black-wrapper {
+	background-color: #000000;
+	max-width: 1024px;
+	margin:100px auto 0;
+}
+.text-animation-wrap {
+padding: 40px 80px;
+p{
+  color: lime; 
+  font-family: "Courier";
+  font-size: 20px;
+  margin: 10px 0 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+  animation: type 4s steps(6000, end); 
+}
+
+p:nth-child(2){
+  animation: type2 8s steps(600, end);
+}
+p:nth-child(3){
+	animation: type2 16s steps(600, end);
+	margin-top:24px;
+  }
+  p:nth-child(4){
+	animation: type2 30s steps(600, end);
+  }
+  p:nth-child(4){
+	animation: type2 30s steps(600, end);
+  }
+
+p a{
+  color: lime;
+  text-decoration: none;
+}
+
+span{
+  animation: blink 1s infinite;
+}
+
+@keyframes type{ 
+  0% { width: 0; } 
+  
+} 
+
+@keyframes type2{
+  0%{width: 0;}
+  50%{width: 0;}
+  100%{ width: 100; } 
+} 
+
+@keyframes blink{
+  to{opacity: .0;}
+}
+
+}
 
 // FAQ
 .accordion-item {
