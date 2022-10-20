@@ -16,7 +16,10 @@
     "react-scripts": "4.0.0",
     "react-slick": "^0.28.1",
     "sass": "^1.43.4",
-    "slick-carousel": "^1.8.1"
+    "slick-carousel": "^1.8.1",
+    "engines": {
+    "node": "18.x"
+  },
   },
   "scripts": {
     "start": "react-scripts start",
