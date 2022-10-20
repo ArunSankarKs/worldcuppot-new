@@ -19,8 +19,8 @@ export default class Partner extends React.Component {
       centerMode: false,
       centerPadding: "10px",
       speed: 500,
-      arrows: false,
-      dots: true,       
+      arrows: true,
+      dots: false,       
       responsive: [{
         breakpoint:1024,
         settings: {
