@@ -3,12 +3,15 @@ import './App.scss';
 import Banner from './components/Pages/Banner/banner';
 import Partner from './components/Pages/Partner/partner';
 import Roadmap from './components/Pages/Roadmap/roadmap'
-import Ecosystem from './components/Pages/Ecosystem/ecosystem';
+import About from './components/Pages/About/about';
 import Teams from './components/Pages/Teams/teams';
 import Faq from './components/Pages/FAQ/faq';
 
 
-
+import 'owl.carousel/dist/assets/owl.carousel.css';
+import 'owl.carousel';
+import 'jquery/dist/jquery.js';
+import 'owl.carousel/dist/owl.carousel.min.js';
 
 // import Footer from './components/Pages/Footer/Footer';
 
@@ -136,7 +139,7 @@ if ('IntersectionObserver' in window)  {
               <a className="nav-link" href="#roadmap">ROADMAP</a>
             </li>         
             <li className="nav-item">
-              <a className="nav-link"  href="#tokenomics">ABOUT</a>
+              <a className="nav-link"  href="#about">ABOUT</a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#team">TEAM</a>
@@ -162,10 +165,10 @@ if ('IntersectionObserver' in window)  {
     <section id="home" className="position-relative p-0 m-0">
     <Banner></Banner>
     </section>
-    <section id="ecosystem" className="position-relative">
+    <section id="about" className="position-relative">
     <div class='bg-image remove-border'>
          <div className='inner-section remove-border'>
-          <Ecosystem></Ecosystem>
+          <About></About>
           </div>
           </div>
       </section> 
@@ -204,8 +207,8 @@ if ('IntersectionObserver' in window)  {
                 <div class="container custom-container">
                     <div class="row justify-content-center justify-content-md-between">
                         <div class="col-lg-5 col-md-5">
-                            <div class="footer-widget mb-50">
-                                <div class="mb-35">
+                            <div class="footer-widget mb-4">
+                                <div class="mb-3 pt-4">
                                    <h1 className='footer-logo-txt mb-4'>WORLD CUP POT</h1>
                                 </div>
                                 <div class="fw-text">
@@ -215,8 +218,8 @@ if ('IntersectionObserver' in window)  {
                             </div>
                         </div>
                         <div class="col-xl-2 col-lg-2 col-md-5">
-                            <div class="footer-widget mb-50 d-flex flex-column justify-content-center justify-content-md-end">
-                                <div class="fw-title mb-4">
+                            <div class="footer-widget mb-4 mb-lg-0 d-flex flex-column justify-content-center justify-content-md-end">
+                                <div class="fw-title mb-lg-4 mb-3">
                                     <h3>Socials</h3>
                                 </div>
                                 <div class="fw-quick-link">
@@ -235,8 +238,8 @@ if ('IntersectionObserver' in window)  {
                             </div>
                         </div>
                         <div class="col-xl-2 col-lg-2 col-md-5">
-                            <div class="footer-widget mb-50 d-flex flex-column justify-content-center justify-content-md-end">
-                                <div class="fw-title mb-4">
+                            <div class="footer-widget mb-4 mb-lg-0 d-flex flex-column justify-content-center justify-content-md-end">
+                                <div class="fw-title mb-3 mb-lg-4">
                                     <h3>Blockchain</h3>
                                 </div>
                                 <div class="fw-quick-link">
@@ -261,8 +264,8 @@ if ('IntersectionObserver' in window)  {
                             </div>
                         </div>
                         <div class="col-xl-2 col-lg-3 col-md-5">
-                            <div class="footer-widget mb-50 d-flex flex-column justify-content-center justify-content-md-end">
-                                <div class="fw-title mb-4">
+                            <div class="footer-widget mb-4 mb-lg-0d-flex flex-column justify-content-center justify-content-md-end">
+                                <div class="fw-title mb-3 mb-lg-4">
                                     <h3>Useful Links</h3>
                                 </div>
                                 <div class="fw-quick-link">
