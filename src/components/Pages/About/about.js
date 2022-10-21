@@ -32,15 +32,15 @@ const About = () => {
           <img src={blinkimg}  className="img-fluid"/>
           </div>
           <div className='text-animation-wrap'>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit Morbi rutrum leo eget ligula</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>          
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit Morbi rutrum leo eget ligula</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>          
+            <p>Card 975 from team A in Inside left Runs Around the ball</p>
+            <p>Card 975 from team A in Outside right Runs Around the ball</p>          
+            <p>LCard 975 from team A in Center half back Fights to Card 754</p>
+            <p>LCard 975 from team A in Center half back Injures to Card 432</p>          
           </div>
           <div className='title-style title-style-sm pb-1 mb-4 text-center mt-5'>
             <h2>BETTING STATS: $550 BUSD</h2>
         </div>
-          <div className='table-responsive betting-table'>
+          <div className='table-responsive betting-table px-5 mb-5'>
           <table class="table table-hover table-dark table-lg">
             <thead>
               <tr>

@@ -133,7 +133,7 @@ if ('IntersectionObserver' in window)  {
 
           <ul className="navbar-nav mx-auto">
           <li class="nav-item">
-              <a className="nav-link" href="#ecosystem">WELCOME</a>
+              <a className="nav-link" href="#home">WELCOME</a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#roadmap">ROADMAP</a>
