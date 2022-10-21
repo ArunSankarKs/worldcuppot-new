@@ -54,7 +54,7 @@ const Roadmap = () => {
     </div>
     <div className='roadmap'>
     <div className='container'>     
-      <div class="timeline pt-4">
+      <div class="timeline pt-4 px-4">
 <div1 class="circle-container">
 <section class="tl no-border"></section>
 <section class="tr no-border"></section>

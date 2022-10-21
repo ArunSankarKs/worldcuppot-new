@@ -11,7 +11,6 @@ import Slider from "react-slick";
 //   )
 // }
 
-
 export default class Partner extends React.Component {
   render() {
     const settings = {

@@ -1,24 +1,80 @@
 import React, { useState } from 'react';
-// import Logo from '../../../assets/images/marble-prix-logo.png';
 import $ from 'jquery';
+import Slider from "react-slick";
 
+import team1 from '../../../assets/images/teams/team1.png';
+import team2 from '../../../assets/images/teams/team2.png';
+
+import OwlCarousel from 'react-owl-carousel';  
+import 'owl.carousel/dist/assets/owl.carousel.css';  
+import 'owl.carousel/dist/assets/owl.theme.default.css';
+
+// $(document).ready(function(){
+//   var $owl = $('.owl-carousel');
+
+//   $owl.children().each( function( index ) {
+//     $(this).attr( 'data-position', index ); 
+//   });
+  
+//   $owl.owlCarousel({
+//     center: true,
+//     loop: true,
+//     items: 5,
+//   });
+  
+//   $(document).on('click', '.owl-item>div', function() {
+//     var $speed = 300;  // in ms
+//     $owl.trigger('to.owl.carousel', [$(this).data( 'position' ), $speed] );
+//   });
+// });
 
 const Banner = props => {
-  
-  // const [index, setIndex] = useState(0);
 
-  // const handleSelect = (selectedIndex, e) => {
-  //   setIndex(selectedIndex);
-  // };
- 
+  var settings = {
+    className:"owl-theme" , 
+    loop:"true",
+    nav:false,
+    center:"true",
+    margin:-40,
+    items:5,
+    mouseDrag:true,
+    touchDrag:true,    
+    responsiveClass: true,
+    responsive: {
+      0: {
+        items: 1,
+        margin:0,
+      },
   
+      600: {
+        items: 3
+      },
   
+      1024: {
+        items: 4
+      },
   
+      1366: {
+        items: 4
+      }
+    }
+  }
+  
+
+  var sliderImage = [
+    {sliderimg:team1},
+    {sliderimg:team2},
+    {sliderimg:team1},
+    {sliderimg:team2},
+    
+   
+  ]
 
   return(
   <div className="banner pb-5">
     <div className="container">
-        <div className="position-relative">
+        <div className='row align-items-center'>
+            <div className='col-md-6'>
         <div className='banner-txt'>
            <div className="mt-4 welcome-txt">   
                  WELCOME TO
@@ -39,9 +95,27 @@ const Banner = props => {
               Buy $WCP
               </a>
           </div>
-          </div>
         </div> 
+        </div>
+        <div className='col-md-6'>
+        <div className='carousal-wrap'>
+        <OwlCarousel {...settings}>  
+           <div className='img-wrap'><img  className="img" src= {'https://via.placeholder.com/400x300/f06/fff/?text=1'}/></div>  
+           <div className='img-wrap'><img  className="img" src= {'https://via.placeholder.com/400x300/f63/fff/?text=2'}/></div>  
+           <div className='img-wrap'><img  className="img" src= {'https://via.placeholder.com/400x300/fc3/fff/?text=3'}/></div>  
+           <div className='img-wrap'><img  className="img" src= {'https://via.placeholder.com/400x300/f06/fff/?text=4'}/></div>  
+           <div className='img-wrap'><img  className="img" src= {'https://via.placeholder.com/400x300/f63/fff/?text=5'}/></div>  
+      </OwlCarousel>  
 
+        {/* <Slider {...settings}>        
+            {sliderImage.map(item => (
+            <div><img src={item.sliderimg}/> </div>
+            ))}
+          </Slider> */}
+
+      </div>
+        </div>
+</div>
 
         <div class="area" >
             <ul class="circles">

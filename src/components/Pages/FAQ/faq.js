@@ -23,7 +23,7 @@ export default class Faq extends React.Component {
          <div className="pr-lg-5">Frequently asked questions can be found below however if you didn’t find the answer you were hunting for, Reach out to our team directly at Email and we’ll get back to you as soon as possible!</div>
 					</div>
            <div class="col-md-6">
-            <div className=''>
+            <div className='mt-lg-0 mt-5'>
             <Accordion defaultActiveKey="0">
                 <Accordion.Item eventKey="0">
                   <Accordion.Header>What’s an NFT?</Accordion.Header>

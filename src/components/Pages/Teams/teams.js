@@ -30,8 +30,8 @@ export default class Teams extends React.Component {
           slidesToScroll: 1,
           initialSlide: 1,
           centerPadding: "0%",
-          arrows: true,
-          dots: false,   
+          arrows: false,
+          dots: true,   
         },
         breakpoint: 600,
         settings: {
@@ -39,8 +39,8 @@ export default class Teams extends React.Component {
           slidesToScroll: 1,
           initialSlide: 1,
           centerPadding: "0%",
-          arrows: true,
-          dots: false, 
+          arrows: false,
+          dots: true, 
         }
       }]
     };
@@ -62,7 +62,7 @@ export default class Teams extends React.Component {
                         <div class="child-element">
                         <Slider {...settings}>
                           <div>
-                           <div className='d-flex justify-content-between'>
+                           <div className='d-flex justify-content-between flex-lg-nowrap flex-wrap'>
                             <div className='mr-lg-5'>
                             <div className='img-circle'>
                               <img src={team1}  className="img-fluid"/>
@@ -81,13 +81,12 @@ export default class Teams extends React.Component {
                            </div>
                           </div>
                           <div>
-                          <div className='d-flex'>
+                          <div className='d-flex flex-lg-nowrap flex-wrap'>
                             <div className='mr-lg-5'>
                             <div className='img-circle'>
                               <img src={team2}  className="img-fluid"/>
                             </div>
                             </div>
-                           
                             <div>
                               <div className='name mb-2'>Jeffry Greev</div>
                               <div className='destination mb-3'>creative leader</div>
@@ -101,7 +100,7 @@ export default class Teams extends React.Component {
                            </div>
                           </div>
                           <div>
-                           <div className='d-flex justify-content-between'>
+                           <div className='d-flex justify-content-between flex-lg-nowrap flex-wrap'>
                             <div className='mr-lg-5'>
                             <div className='img-circle'>
                               <img src={team1}  className="img-fluid"/>
@@ -120,7 +119,7 @@ export default class Teams extends React.Component {
                            </div>
                           </div>
                           <div>
-                          <div className='d-flex'>
+                          <div className='d-flex flex-lg-nowrap flex-wrap'>
                             <div className='mr-lg-5'>
                             <div className='img-circle'>
                               <img src={team2}  className="img-fluid"/>
