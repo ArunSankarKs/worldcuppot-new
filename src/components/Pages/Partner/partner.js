@@ -3,14 +3,6 @@ import sliderImg from '../../../assets/images/slider-1.png';
 import React, { Component } from "react";
 import Slider from "react-slick";
 
-
-
-// const Overview = () => {
-//   return(     
-    
-//   )
-// }
-
 export default class Partner extends React.Component {
   render() {
     const settings = {
