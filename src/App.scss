@@ -616,6 +616,7 @@ color: #FFE357;
 	background-color: #000000;
 	max-width: 1024px;
 	margin:150px auto 0;
+	padding: 40px;
 }
 .text-animation-wrap {
 padding: 40px 80px;
@@ -950,6 +951,8 @@ span{
 	// }
 .betting-table .table{
 	th {
+		background: #ffe357;
+		color: #3b0100;
 		&:first-of-type {
 			padding-left: 40px;
 			white-space: nowrap;
