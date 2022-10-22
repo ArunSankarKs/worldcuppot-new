@@ -1,6 +1,6 @@
 import React from 'react';
-import game12 from '../../../assets/images/game12.png';
-import blinkimg from '../../../assets/images/blink-img.png';
+import game12 from '../../../assets/images/game12.jpg';
+import stadium from '../../../assets/images/stadium.png';
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 
@@ -26,10 +26,10 @@ const About = () => {
        }>
         <div className='black-wrapper'>
         <div className="text-right d-flex justify-content-center pt-5 pb-5">
-          <img src={game12}  className="img-fluid"/>
+          <img src={game12}  className="img-fluid" data-inviewport="slide-up-particle" />
         </div>
           <div className="text-right d-flex justify-content-center mt-5">
-          <img src={blinkimg}  className="img-fluid"/>
+          <img src={stadium}  className="img-fluid" data-inviewport="slide-left" />
           </div>
           <div className='text-animation-wrap'>
             <p>Card 975 from team A in Inside left Runs Around the ball</p>
@@ -40,7 +40,7 @@ const About = () => {
           <div className='title-style title-style-sm pb-1 mb-4 text-center mt-5'>
             <h2>BETTING STATS: $550 BUSD</h2>
         </div>
-          <div className='table-responsive betting-table px-5 mb-5'>
+          <div className='table-responsive betting-table px--lg-5 mb-5'>
           <table class="table table-hover table-dark table-lg">
             <thead>
               <tr>
