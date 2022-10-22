@@ -1,32 +1,12 @@
 import React, { useState } from 'react';
 import $ from 'jquery';
 import Slider from "react-slick";
-
-import team1 from '../../../assets/images/teams/team1.png';
-import team2 from '../../../assets/images/teams/team2.png';
+import pot1 from '../../../assets/images/world-cup-pot-1.jpeg';
+import pot2 from '../../../assets/images/world-cup-pot-2.jpeg';
 
 import OwlCarousel from 'react-owl-carousel';  
 import 'owl.carousel/dist/assets/owl.carousel.css';  
 import 'owl.carousel/dist/assets/owl.theme.default.css';
-
-// $(document).ready(function(){
-//   var $owl = $('.owl-carousel');
-
-//   $owl.children().each( function( index ) {
-//     $(this).attr( 'data-position', index ); 
-//   });
-  
-//   $owl.owlCarousel({
-//     center: true,
-//     loop: true,
-//     items: 5,
-//   });
-  
-//   $(document).on('click', '.owl-item>div', function() {
-//     var $speed = 300;  // in ms
-//     $owl.trigger('to.owl.carousel', [$(this).data( 'position' ), $speed] );
-//   });
-// });
 
 const Banner = props => {
 
@@ -61,15 +41,6 @@ const Banner = props => {
   }
   
 
-  var sliderImage = [
-    {sliderimg:team1},
-    {sliderimg:team2},
-    {sliderimg:team1},
-    {sliderimg:team2},
-    
-   
-  ]
-
   return(
   <div className="banner pb-5">
     <div className="container">
@@ -100,18 +71,12 @@ const Banner = props => {
         <div className='col-md-6'>
         <div className='carousal-wrap'>
         <OwlCarousel {...settings}>  
-           <div className='img-wrap'><img  className="img" src= {'https://via.placeholder.com/400x300/f06/fff/?text=1'}/></div>  
-           <div className='img-wrap'><img  className="img" src= {'https://via.placeholder.com/400x300/f63/fff/?text=2'}/></div>  
-           <div className='img-wrap'><img  className="img" src= {'https://via.placeholder.com/400x300/fc3/fff/?text=3'}/></div>  
-           <div className='img-wrap'><img  className="img" src= {'https://via.placeholder.com/400x300/f06/fff/?text=4'}/></div>  
-           <div className='img-wrap'><img  className="img" src= {'https://via.placeholder.com/400x300/f63/fff/?text=5'}/></div>  
-      </OwlCarousel>  
-
-        {/* <Slider {...settings}>        
-            {sliderImage.map(item => (
-            <div><img src={item.sliderimg}/> </div>
-            ))}
-          </Slider> */}
+           <div className='img-wrap'><img  className="img" src= {pot1}/></div>
+           <div className='img-wrap'><img  className="img" src= {pot2}/></div>  
+           <div className='img-wrap'><img  className="img" src= {pot1}/></div>  
+           <div className='img-wrap'><img  className="img" src= {pot2}/></div>  
+           <div className='img-wrap'><img  className="img" src= {pot1}/></div>
+         </OwlCarousel> 
 
       </div>
         </div>
@@ -131,52 +96,7 @@ const Banner = props => {
                     <li></li>
             </ul>
     </div >
-        
-        {/* <div className='w-100'>
-    <div class="bulb-holder">
-        <div class="bulb">
-            <div class="light"></div>
-        </div>
     </div>
-
-    <div class="bulb-holder" id="b1">
-        <div class="bulb">
-            <div class="light"></div>
-        </div>
-    </div>
-    <div class="bulb-holder" id="b2">
-        <div class="bulb">
-            <div class="light"></div>
-        </div>
-    </div>
-    </div> */}
-    </div>
-
- 
-    {/* <div className='anim-wrapper'> 
-          <div class="fish_wrap">
-                <div class="fred">
-                    <div class="top_fin"></div>
-                    <div class="tail_fin"></div>
-                    <div class="fish_body">
-                        <div class="eye"></div>
-                        <div class="scale_1"></div>
-                        <div class="scale_2"></div>
-                        <div class="scale_3"></div>
-                        <div class="scale_4"></div>
-                    </div>                                        
-                </div>
-            </div>
-            <div className='drop-wrapper'>
-            <div class="drop"></div>
-            <div class="pool"></div>
-
-            <div class="drop2"></div>
-            <div class="pool2"></div>
-            </div>
-          
-            
-   </div>  */}
   </div> 
 
  
