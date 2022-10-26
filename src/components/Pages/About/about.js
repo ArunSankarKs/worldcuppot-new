@@ -1,5 +1,5 @@
 import React from 'react';
-import game12 from '../../../assets/images/game12.png';
+import game12 from '../../../assets/images/game12.jpg';
 import blinkimg from '../../../assets/images/blink-img.png';
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
@@ -25,21 +25,22 @@ const About = () => {
         </React.Fragment>
        }>
         <div className='black-wrapper'>
-        <div className="text-right d-flex justify-content-center pt-5 pb-5">
+        <div className="text-right d-flex justify-content-center pt-5 pb-5 px-lg-5">
           <img src={game12}  className="img-fluid"/>
         </div>
-          <div className="text-right d-flex justify-content-center mt-5">
+          {/* <div className="text-right d-flex justify-content-center mt-5">
           <img src={blinkimg}  className="img-fluid"/>
-          </div>
+          </div> */}
           <div className='text-animation-wrap'>
             <p>Card 975 from team A in Inside left Runs Around the ball</p>
             <p>Card 975 from team A in Outside right Runs Around the ball</p>          
             <p>LCard 975 from team A in Center half back Fights to Card 754</p>
             <p>LCard 975 from team A in Center half back Injures to Card 432</p>          
           </div>
-          <div className='title-style title-style-sm pb-1 mb-4 text-center mt-5'>
+          <div className='title-style title-style-sm pb-0 mb-0 text-center mt-5'>
             <h2>POT: $40 USDT</h2>
         </div>
+        <div className='text-center match-txt mb-4'>MATCH STARTS on 7:30:12</div>
           <div className='table-responsive betting-table px-5 mb-5'>
           <table class="table table-hover table-dark table-lg">
             <thead>
@@ -83,6 +84,9 @@ const About = () => {
               </tr>
             </tbody>
           </table>
+          </div>
+          <div className='text-center'>
+            <button className='place-btn'>PLACE YOUR BET!</button>
           </div>
         </div>
       </Tab>
