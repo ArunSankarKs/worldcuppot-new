@@ -117,6 +117,10 @@ if ('IntersectionObserver' in window)  {
 <div>
        <nav className="navbar navbar-expand-lg navbar-inverse navbar-fixed-top w-100 justify-content-center" id="navbar_top" style={{position: scrollingLock ? "fixed" : "fixed"}}>
           <div className="container">
+          <a className="navbar-brand" href="#">
+          <img src={logo} className="img-fluid"/>
+         {/* WORLD CUP POT */}
+          </a>
           <div className="navbar-header">
               {/* <a className="navbar-brand d-lg-none" href="#"> </a>      */}
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
@@ -127,10 +131,7 @@ if ('IntersectionObserver' in window)  {
               </button>
           </div>
         <div className="collapse navbar-collapse" id="navbarToggle">
-         <a className="navbar-brand d-none d-lg-block" href="#">
-          <img src={logo}/>
-         {/* WORLD CUP POT */}
-          </a> 
+         
 
           <ul className="navbar-nav ml-auto">
           {/* <li class="nav-item">

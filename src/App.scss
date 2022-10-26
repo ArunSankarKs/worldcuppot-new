@@ -967,8 +967,8 @@ span{
 
 //   Banner
 .carousal-wrap {
-	background-color:#016ed3;
-	padding: 40px;
+	// background-color:#016ed3;
+	padding: 40px 0 0 100px;
 	margin-top: 150px;
 }
 .owl-item > div {
@@ -1017,8 +1017,9 @@ span{
 
 @media(max-width:1024px) {
   .navbar .navbar-brand img {
-    width: 8rem !important;
+	width: 16rem !important;
     padding-top: 0 !important;
+    padding-left: 24px;
 }
 .navbar-toggler {
 //   border: 1px solid rgb(253 40 126) !important;
@@ -1104,6 +1105,7 @@ span{
 	.welcome-txt {
 		padding-top: 100px !important;
 	}
+
 	.title-txt {
 		font-size: 35px;
 	}
@@ -1163,7 +1165,7 @@ span{
 	padding: 36px 0 50px;
 	}
 	.carousal-wrap {
-		padding: 96px;
+		padding: 0px;
 	}
 .partners {
 	display: block;
