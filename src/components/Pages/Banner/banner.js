@@ -55,8 +55,8 @@ const Banner = props => {
             </div>
             <div>
               <p>WORLD CUP POT is for all the soccer loving degens out there!</p>
-              <p>Collect soccer players NFTS then get $WCP airdrops if your players win in the daily simulation matches powered by Chainlink's VRF and our soccer simulator engine.</p>
-              <p>You can also bet BUSD on each match. </p>
+              <p>Collect soccer players NFTS then get $WCP airdrops if your players win in the daily simulation matches powered by Chainlink’s VRF and our soccer simulator engine.</p>
+              <p>You can also bet USDT on each match. </p>
             </div>
           <div className="pt-4 launch-btn">
               <a href="javascript:;" className="btn btn-outline lp-btn primary-btn mr-3">
