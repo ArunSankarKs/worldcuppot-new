@@ -6,7 +6,7 @@ import Roadmap from './components/Pages/Roadmap/roadmap'
 import About from './components/Pages/About/about';
 import Teams from './components/Pages/Teams/teams';
 import Faq from './components/Pages/FAQ/faq';
-
+import logo from './assets/images/logo.png';
 
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel';
@@ -116,7 +116,7 @@ if ('IntersectionObserver' in window)  {
 <div>
 <div>
        <nav className="navbar navbar-expand-lg navbar-inverse navbar-fixed-top w-100 justify-content-center" id="navbar_top" style={{position: scrollingLock ? "fixed" : "fixed"}}>
-          <div className="container-fluid">
+          <div className="container">
           <div className="navbar-header">
               {/* <a className="navbar-brand d-lg-none" href="#"> </a>      */}
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
@@ -128,19 +128,21 @@ if ('IntersectionObserver' in window)  {
           </div>
         <div className="collapse navbar-collapse" id="navbarToggle">
          <a className="navbar-brand d-none d-lg-block" href="#">
-         WORLD CUP POT
+          <img src={logo}/>
+         {/* WORLD CUP POT */}
           </a> 
 
-          <ul className="navbar-nav mx-auto">
-          <li class="nav-item">
+          <ul className="navbar-nav ml-auto">
+          {/* <li class="nav-item">
               <a className="nav-link" href="#home">WELCOME</a>
+            </li> */}
+             <li className="nav-item">
+              <a className="nav-link"  href="#about">ABOUT</a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#roadmap">ROADMAP</a>
             </li>         
-            <li className="nav-item">
-              <a className="nav-link"  href="#about">ABOUT</a>
-            </li>
+           
             <li className="nav-item">
               <a className="nav-link" href="#team">TEAM</a>
             </li>

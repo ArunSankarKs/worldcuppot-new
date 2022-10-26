@@ -107,6 +107,9 @@ line-height: 28px;
 			list-style: outside none none;
 			margin: 0 1.5em;
 			padding: 0;
+			&:last-of-type {
+				margin-right: 0;
+			}
 		}
 
 	.nav-link {
@@ -180,7 +183,7 @@ line-height: 28px;
 	position: relative;
 	border: none;
 	z-index: 999;
-	padding:30px 90px;
+	padding:5px 0px;
 	// box-shadow: 0 20px 50px rgba(226, 15, 63, 0.5);
 	// border-bottom: 2px solid #d87273;
     }
@@ -190,13 +193,15 @@ line-height: 28px;
 		font-weight: 900;
 		font-size: 40px;
 		line-height: 60px;
+		margin-left: -24px;
 /* identical to box height */
 
 
 color: #FFE357;
 	}
     .navbar-brand img {
-      width:14rem !important;
+      width:20rem !important;
+	  padding-top: 10px;
     }
   }
   .fixed-top {
@@ -204,7 +209,7 @@ background-color: #111;
 box-shadow: 3.5px 2.1px 10px rgba(0, 0, 0, 0.5);
 	padding: 0.5rem !important;
     .navbar-brand img {
-      width: 8rem !important;
+      width: 14rem !important;
       padding-top: 0;
   }
   }
@@ -690,7 +695,21 @@ span{
 }
 
 }
+.match-txt {
+	color: #EAFF67;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 36px
 
+}
+.place-btn {
+	background: #C63B00;
+	border-radius: 10px;
+	padding: 10px 33px;
+	font-size: 20px;
+	font-weight: 700;
+	color: #ffffff;
+}
 // Partner
 .partners {
 	font-size: 35px;
