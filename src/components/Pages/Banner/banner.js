@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import $ from 'jquery';
 import Slider from "react-slick";
-import pot1 from '../../../assets/images/world-cup-pot-1.jpeg';
+import cardimg from '../../../assets/images/card-img.png';
 import pot2 from '../../../assets/images/world-cup-pot-2.jpeg';
 
 import OwlCarousel from 'react-owl-carousel';  
@@ -69,14 +69,17 @@ const Banner = props => {
         </div> 
         </div>
         <div className='col-md-6'>
-        <div className='carousal-wrap'>
-        <OwlCarousel {...settings}>  
+        <div className='carousal-wrap d-flex justi-content-center'>
+          <div>
+            <img src={cardimg} className="img-fluid"/>
+          </div>
+        {/* <OwlCarousel {...settings}>  
            <div className='img-wrap'><img  className="img" src= {pot1}/></div>
            <div className='img-wrap'><img  className="img" src= {pot2}/></div>  
            <div className='img-wrap'><img  className="img" src= {pot1}/></div>  
            <div className='img-wrap'><img  className="img" src= {pot2}/></div>  
            <div className='img-wrap'><img  className="img" src= {pot1}/></div>
-         </OwlCarousel> 
+         </OwlCarousel>  */}
 
       </div>
         </div>
