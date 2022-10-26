@@ -51,9 +51,9 @@ export default class Teams extends React.Component {
           <div className='title-style pb-1 mb-0 text-center'>
             <h2>TEAM</h2>
         </div>
-        <div className='text-center title-sub-txt'>
+        {/* <div className='text-center title-sub-txt'>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rutrum leo eget ligula vestibulum, ac auctor tortor vulputate. 
-        </div>
+        </div> */}
           <div className='row slider-section'>
             <div className='col-12'>
             <div className='inner-section'>
@@ -65,17 +65,16 @@ export default class Teams extends React.Component {
                            <div className='d-flex justify-content-between flex-lg-nowrap flex-wrap'>
                             <div className='mr-lg-5'>
                             <div className='img-circle'>
-                              <img src={team1}  className="img-fluid"/>
+                              <img src={team1}  className="rounded-circle"/>
                             </div>
                             </div>                           
                             <div className='pr-lg-5'>
-                              <div className='name mb-2'>Jeffry Brown</div>
+                              <div className='name mb-2'>@wcpfounder</div>
                               <div className='destination mb-3'>creative leader</div>
-                              <div className='mb-3 desc'>Quisque aliquam eleifend purus, mattis scelerisque dolor sodales eget. Nulla orci tortor, posuere nec imperdiet id, molestie ac magna.</div>
+                              <div className='mb-3 desc'>Sports enthusiast and crypto native geek who loves to help others be a success in blockchain.</div>
                               <ul className='d-flex socials-icon'>
                                 <li><a href='javascript:;'><i className="fa fa-twitter fa-1x mr-3"/></a></li>
-                                <li><a href='javascript:;'><i className="fa fa-twitter fa-1x mr-3"/></a></li>
-                                <li><a href='javascript:;'><i className="fa fa-telegram fa-1x mr-3"/></a></li>
+                                <li><a href='javascript:;'><i className="fa fa-telegram fa-1x"/></a></li>
                               </ul>
                             </div>
                            </div>
@@ -88,51 +87,10 @@ export default class Teams extends React.Component {
                             </div>
                             </div>
                             <div>
-                              <div className='name mb-2'>Jeffry Greev</div>
-                              <div className='destination mb-3'>creative leader</div>
-                              <div className='mb-3 desc'>Quisque aliquam eleifend purus, mattis scelerisque dolor sodales eget. Nulla orci tortor, posuere nec imperdiet id, molestie ac magna.</div>
+                              <div className='name mb-2'>@skylarkingcrypto</div>
+                              <div className='destination mb-3'>product guy</div>
+                              <div className='mb-3 desc'>Community lead across big projects. Passionate to start his own and make it long lasting.</div>
                               <ul className='d-flex socials-icon'>
-                                <li><a href='javascript:;'><i className="fa fa-twitter fa-1x mr-3"/></a></li>
-                                <li><a href='javascript:;'><i className="fa fa-twitter fa-1x mr-3"/></a></li>
-                                <li><a href='javascript:;'><i className="fa fa-telegram fa-1x mr-3"/></a></li>
-                              </ul>
-                            </div>
-                           </div>
-                          </div>
-                          <div>
-                           <div className='d-flex justify-content-between flex-lg-nowrap flex-wrap'>
-                            <div className='mr-lg-5'>
-                            <div className='img-circle'>
-                              <img src={team1}  className="img-fluid"/>
-                            </div>
-                            </div>                           
-                            <div className='pr-lg-5'>
-                              <div className='name mb-2'>Jeffry Brown</div>
-                              <div className='destination mb-3'>creative leader</div>
-                              <div className='mb-3 desc'>Quisque aliquam eleifend purus, mattis scelerisque dolor sodales eget. Nulla orci tortor, posuere nec imperdiet id, molestie ac magna.</div>
-                              <ul className='d-flex socials-icon'>
-                                <li><a href='javascript:;'><i className="fa fa-twitter fa-1x mr-3"/></a></li>
-                                <li><a href='javascript:;'><i className="fa fa-twitter fa-1x mr-3"/></a></li>
-                                <li><a href='javascript:;'><i className="fa fa-telegram fa-1x mr-3"/></a></li>
-                              </ul>
-                            </div>
-                           </div>
-                          </div>
-                          <div>
-                          <div className='d-flex flex-lg-nowrap flex-wrap'>
-                            <div className='mr-lg-5'>
-                            <div className='img-circle'>
-                              <img src={team2}  className="img-fluid"/>
-                            </div>
-                            </div>
-                           
-                            <div>
-                              <div className='name mb-2'>Jeffry Greev</div>
-                              <div className='destination mb-3'>creative leader</div>
-                              <div className='mb-3 desc'>Quisque aliquam eleifend purus, mattis scelerisque dolor sodales eget. Nulla orci tortor, posuere nec imperdiet id, molestie ac magna.</div>
-                              <ul className='d-flex socials-icon'>
-                                <li><a href='javascript:;'><i className="fa fa-twitter fa-1x mr-3"/></a></li>
-                                <li><a href='javascript:;'><i className="fa fa-twitter fa-1x mr-3"/></a></li>
                                 <li><a href='javascript:;'><i className="fa fa-telegram fa-1x mr-3"/></a></li>
                               </ul>
                             </div>
