@@ -3,6 +3,14 @@ import sliderImg from '../../../assets/images/slider-1.png';
 import React, { Component } from "react";
 import Slider from "react-slick";
 
+
+
+// const Overview = () => {
+//   return(     
+    
+//   )
+// }
+
 export default class Partner extends React.Component {
   render() {
     const settings = {
@@ -48,8 +56,8 @@ export default class Partner extends React.Component {
       <div className='container-fluid'>
       <div className="container">
           <div className="section-effect overview-sec">
-          <div className='title-style pb-1 mb-4 text-center'>
-            <h2>PARTNERS</h2>
+          <div className='title-style pb-1  text-center'>
+            <h2>TECH PARTNERS</h2>
         </div>
           <div className='row slider-section'>
             <div className='col-12'>
@@ -57,10 +65,11 @@ export default class Partner extends React.Component {
                   <div class="slider">
                       <div class="slide">
                         <div class="child-element">
-                        <Slider {...settings}>        
-                          {sliderImage.map(item => (
-                          <div><img src={item.sliderimg}/> </div>
-                          ))}
+                        <Slider {...settings}>
+                          <div className='partners'>Uniswap</div>
+                          <div className='partners'>Opensea</div>
+                          <div className='partners'>Chainlink</div>
+                          <div className='partners'>Coingecko</div>
                         </Slider>
                         </div>
                       </div>
