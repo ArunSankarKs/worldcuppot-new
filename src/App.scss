@@ -99,7 +99,6 @@ p {
   font-size: 16px;
   font-weight: 500;
 line-height: 28px;
-animation: slideInRight 1.5s forwards 0s ease-in-out;
 }
   .navbar {
     .navbar-nav {
@@ -174,10 +173,16 @@ animation: slideInRight 1.5s forwards 0s ease-in-out;
 		
     }
     &.navbar-inverse {
+    // background: rgba(1, 47, 95, 0.8);
+	// border-top: 1px solid #025177;
+	// background-image: linear-gradient(to top, #3b0100, #310401, #280402, #1e0302, #110101);
+	// box-shadow: 3.5px 2.1px 10px rgba(0, 0, 0, 0.5);
 	position: relative;
 	border: none;
 	z-index: 999;
 	padding:30px 90px;
+	// box-shadow: 0 20px 50px rgba(226, 15, 63, 0.5);
+	// border-bottom: 2px solid #d87273;
     }
 	.navbar-brand {
 		padding: 8px 0 !important;
@@ -185,6 +190,9 @@ animation: slideInRight 1.5s forwards 0s ease-in-out;
 		font-weight: 900;
 		font-size: 40px;
 		line-height: 60px;
+/* identical to box height */
+
+
 color: #FFE357;
 	}
     .navbar-brand img {
@@ -236,7 +244,6 @@ header .container {
 	line-height: 44px;
 	color: #FFFFFF;
 	font-family:$primary-font !important;
-	animation: slideInRight 1.5s forwards 0s ease-in-out;
 }
 
 .lp-btn.btn {
@@ -345,8 +352,22 @@ header .container {
 	letter-spacing: 0.5px;
 	text-transform: uppercase;
 	color: #FFE357 !important;
-	animation: slideInRight 1.5s forwards 0s ease-in-out;
 	}
+
+
+@keyframes bgcircleanimate {
+  0%{
+      transform: translateY(0) rotate(0deg);
+      opacity: 1;
+      border-radius: 0;
+  }
+  100%{
+      transform: translateY(-1000px) rotate(720deg);
+      opacity: 0;
+      border-radius: 50%;
+  }
+
+}
 
 footer {
 	padding-top: 80px;
@@ -616,7 +637,6 @@ color: #FFE357;
 	background-color: #000000;
 	max-width: 1024px;
 	margin:150px auto 0;
-	padding: 40px;
 }
 .text-animation-wrap {
 padding: 40px 80px;
@@ -671,6 +691,14 @@ span{
 
 }
 
+// Partner
+.partners {
+	font-size: 35px;
+	font-weight: 700;
+	color: #9F9F9F;
+
+}
+
 // FAQ
 .accordion-item {
 	background: #1E1C1D;
@@ -717,9 +745,9 @@ span{
 	}
 }
 }
-.accordion-body {
-	padding: 12px 44px;
-}
+	.accordion-body {
+		padding: 12px 44px;
+	}
 }
 
 // Road Map
@@ -951,8 +979,6 @@ span{
 	// }
 .betting-table .table{
 	th {
-		background: #ffe357;
-		color: #3b0100;
 		&:first-of-type {
 			padding-left: 40px;
 			white-space: nowrap;
@@ -1082,6 +1108,10 @@ span{
 		padding: 17px 30px;
 		}	
 	}
+	.title-style h2 {
+		font-size: 29px;
+    line-height: 28px;
+}
 	.navbar .navbar-nav .nav-item {
 	text-align: center;
 	}
@@ -1116,4 +1146,8 @@ span{
 	.carousal-wrap {
 		padding: 96px;
 	}
+.partners {
+	display: block;
+	text-align: center;
+}
 }

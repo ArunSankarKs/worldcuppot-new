@@ -212,9 +212,8 @@ if ('IntersectionObserver' in window)  {
                                    <h1 className='footer-logo-txt mb-4'>WORLD CUP POT</h1>
                                 </div>
                                 <div class="fw-text">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rutrum leo eget ligula vestibulum, ac auctor tortor vulputate. </p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rutrum leo eget ligula vestibulum, ac auctor tortor vulputate. Phasellus fringilla tincidunt mi non tempor. Praesent hendrerit eros sed ante ultricies, in scelerisque ex laoreet.</p>
-                                </div>
+                                    <p>World Cup Pot is a decentralized football simulator powered by NFTs and a game simulator. </p>
+                                  </div>
                             </div>
                         </div>
                         <div class="col-xl-2 col-lg-2 col-md-5">
@@ -230,9 +229,9 @@ if ('IntersectionObserver' in window)  {
                                     <li className="nav-item">
                                       <a className="nav-link" href="javascript:;">Twitter</a>
                                     </li>
-                                    <li class="nav-item">
+                                    {/* <li class="nav-item">
                                       <a className="nav-link" href="javascript:;">Youtube</a>
-                                    </li>
+                                    </li> */}
                                     </ul>
                                 </div>
                             </div>
@@ -254,10 +253,10 @@ if ('IntersectionObserver' in window)  {
                                       <a className="nav-link" href="javascript:;">Opensea</a>
                                     </li>
                                     <li className="nav-item">
-                                      <a className="nav-link" href="javascript:;">BSCScan</a>
+                                      <a className="nav-link" href="javascript:;">EtherScan</a>
                                     </li>
                                     <li class="nav-item">
-                                      <a className="nav-link" href="javascript:;">Pancakeswap</a>
+                                      <a className="nav-link" href="javascript:;">Uniswap</a>
                                     </li>
                                     </ul>
                                 </div>
@@ -274,7 +273,7 @@ if ('IntersectionObserver' in window)  {
                                       <a className="nav-link" href="javascript:;">Contract</a>
                                     </li>
                                     <li className="nav-item">
-                                      <a className="nav-link" href="javascript:;">Pooppaper</a>
+                                      <a className="nav-link" href="javascript:;">Pitch Deck</a>
                                     </li>
                                     <li class="nav-item">
                                       <a className="nav-link" href="javascript:;">Contact</a>
