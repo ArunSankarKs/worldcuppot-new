@@ -20,21 +20,19 @@ export default class Faq extends React.Component {
         <div className='title-style mb-4'>
             <h2>FAQ</h2>
         </div>
-         <div className="pr-lg-5">Frequently asked questions can be found below however if you didn’t find the answer you were hunting for, Reach out to our team directly at Email and we’ll get back to you as soon as possible!</div>
+         <div className="pr-lg-5">Frequently asked questions to get to know more about World Cup Pot. Tag us on Twitter if you have any specific questions!</div>
 					</div>
            <div class="col-md-6">
             <div className='mt-lg-0 mt-5'>
             <Accordion defaultActiveKey="0">
                 <Accordion.Item eventKey="0">
-                  <Accordion.Header>What’s an NFT?</Accordion.Header>
+                  <Accordion.Header>What is World Cup Pot?</Accordion.Header>
                   <Accordion.Body>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                  Morbi rutrum leo eget ligula vestibulum, ac auctor tortor vulputate. 
-                  Phasellus fringilla tincidunt mi non tempor. 
+                  WCP is a platform to simulate the feeling of a World Cup season every day of every year with NFTs and a dapp. 
                   </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="1">
-                  <Accordion.Header>What makes JPEG ARMY special?</Accordion.Header>
+                  <Accordion.Header>What does the WCP token do?</Accordion.Header>
                   <Accordion.Body>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -42,7 +40,7 @@ export default class Faq extends React.Component {
                   </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="2">
-                  <Accordion.Header>When does minting begin?</Accordion.Header>
+                  <Accordion.Header>What are the WCP NFTs?</Accordion.Header>
                   <Accordion.Body>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -50,7 +48,7 @@ export default class Faq extends React.Component {
                   </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="3">
-                  <Accordion.Header>Who can mint one?</Accordion.Header>
+                  <Accordion.Header>How do Matches and beting work?</Accordion.Header>
                   <Accordion.Body>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
