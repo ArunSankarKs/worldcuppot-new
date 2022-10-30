@@ -66,10 +66,10 @@ export default class Partner extends React.Component {
                       <div class="slide">
                         <div class="child-element">
                         <Slider {...settings}>
-                          <div className='partners'>Uniswap</div>
-                          <div className='partners'>Opensea</div>
-                          <div className='partners'>Chainlink</div>
-                          <div className='partners'>Coingecko</div>
+                          <div className='partners'><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Chainlink_Logo_Blue.svg/1024px-Chainlink_Logo_Blue.svg.png?20210226190931" style={{width:"300px"}}/></div>
+                          <div className='partners'><img src="https://dotmoovs.com/static/c202c7260f7a5af51d123da7207aba8d/b43f4/coinmarket.png" style={{width:"300px",paddingTop:"20px",paddingLeft:"20px"}}/></div>
+                          <div className='partners'><img src="https://etherscan.io/images/brandassets/etherscan-logo-light.png" style={{width:"250px",paddingTop:"20px",paddingLeft:"20px"}}/></div>
+                          <div className='partners'><img src="https://landing.coingecko.com/wp-content/uploads/2020/04/logo-1024x320.png" style={{width:"300px"}}/></div>
                         </Slider>
                         </div>
                       </div>

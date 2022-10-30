@@ -150,11 +150,11 @@ if ('IntersectionObserver' in window)  {
             <li className="nav-item">
               <a className="nav-link" href="#faq">FAQ</a>
             </li>
-            <li className="nav-item">
-            <a href="javascript:;" className="btn lp-btn lp-btn-sm primary-btn">
-            Connect Wallet
-              </a>
-            </li>
+            {/*<li className="nav-item">*/}
+            {/*<a href="javascript:;" className="btn lp-btn lp-btn-sm primary-btn">*/}
+
+            {/*  </a>*/}
+            {/*</li>*/}
 
            
           </ul>
@@ -247,7 +247,7 @@ if ('IntersectionObserver' in window)  {
                                 <div class="fw-quick-link">
                                     <ul>
                                     <li className="nav-item">
-                                      <a className="nav-link" href="javascript:;">CoinMarketGap</a>
+                                      <a className="nav-link" href="javascript:;">CoinMarketCap</a>
                                     </li>
                                     <li className="nav-item">
                                       <a className="nav-link" href="javascript:;">CoinGecko</a>
