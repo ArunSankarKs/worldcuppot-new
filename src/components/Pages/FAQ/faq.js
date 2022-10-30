@@ -34,25 +34,19 @@ export default class Faq extends React.Component {
                 <Accordion.Item eventKey="1">
                   <Accordion.Header>What does the WCP token do?</Accordion.Header>
                   <Accordion.Body>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                    minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                  WCP is an ERC20 token that incentivizes adoption and participation as well as a key component in staking, fees and other functions to be built. 
                   </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="2">
                   <Accordion.Header>What are the WCP NFTs?</Accordion.Header>
                   <Accordion.Body>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                    minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                  Our NFTs are different because they are used in AI matches and can affect the results. Winning matches will earn the NFT owners tokens and stat upgrades. 
                   </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="3">
                   <Accordion.Header>How do Matches and beting work?</Accordion.Header>
                   <Accordion.Body>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                    minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                  Matches are primarily driven by a Verifiable Random Function and the NFT player’s stats. The engine will evolve over time to reflect a real and exciting match on the field.
                   </Accordion.Body>
                 </Accordion.Item>
               </Accordion>
