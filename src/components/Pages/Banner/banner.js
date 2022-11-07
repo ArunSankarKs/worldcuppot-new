@@ -59,7 +59,7 @@ const Banner = props => {
               <p>You can also bet USDT on each match. </p>
             </div>
           <div className="pt-4 launch-btn">
-              <a href="javascript:;" className="btn btn-outline lp-btn primary-btn mr-3">
+              <a href="https://mint.worldcuppot.io" target = "_blank"className="btn btn-outline lp-btn primary-btn mr-3">
               Buy packs
               </a>
               <a href="javascript:;" className="btn btn-outline lp-btn secondary-btn">
