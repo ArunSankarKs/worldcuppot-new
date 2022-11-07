@@ -227,10 +227,10 @@ if ('IntersectionObserver' in window)  {
                                 <div class="fw-quick-link">
                                     <ul>
                                     <li className="nav-item">
-                                      <a className="nav-link" href="javascript:;">Telegram</a>
+                                      <a className="nav-link" href="https://t.me/worldcuppot">Telegram</a>
                                     </li>
                                     <li className="nav-item">
-                                      <a className="nav-link" href="javascript:;">Twitter</a>
+                                      <a className="nav-link" href="https://twitter.com/worldcuppot">Twitter</a>
                                     </li>
                                     {/* <li class="nav-item">
                                       <a className="nav-link" href="javascript:;">Youtube</a>
