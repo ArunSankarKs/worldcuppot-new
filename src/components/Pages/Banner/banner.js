@@ -59,11 +59,11 @@ const Banner = props => {
               <p>You can also bet USDT on each match. </p>
             </div>
           <div className="pt-4 launch-btn">
-              <a href="https://mint.worldcuppot.io" target = "_blank"className="btn btn-outline lp-btn primary-btn mr-3">
-              Buy packs
-              </a>
-              <a href="javascript:;" className="btn btn-outline lp-btn secondary-btn">
+          <a href="https://app.uniswap.org/#/swap?outputCurrency=0xda754d0b8e7a4a5597e3f3c09593e1621dc9f6d1" target = "_blank"className="btn btn-outline lp-btn primary-btn mr-3">
               Buy $WCP
+              </a>
+              <a href="https://app.valhalla.tools/token?address=0xff06393c6c42409a73ae0e5d4e2e2e9b4016c814&chain=1" target="_blank" className="btn btn-outline lp-btn secondary-btn">
+              $WCP Chart
               </a>
           </div>
         </div> 
