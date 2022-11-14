@@ -56,6 +56,8 @@ export default class Partner extends React.Component {
       <div className='container-fluid'>
       <div className="container">
           <div className="section-effect overview-sec">
+       
+
           <div className='title-style pb-1  text-center'>
             <h2>TECH PARTNERS</h2>
         </div>
