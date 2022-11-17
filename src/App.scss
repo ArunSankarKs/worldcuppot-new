@@ -643,6 +643,13 @@ color: #FFE357;
 	max-width: 1024px;
 	margin:150px auto 0;
 }
+.abt-card-link {
+	color: #fff;
+	&:hover {
+		text-decoration: none;
+		color: #fff;
+	}
+}
 .text-animation-wrap {
 padding: 40px 80px;
 p{

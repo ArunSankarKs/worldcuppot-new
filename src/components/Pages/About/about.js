@@ -18,12 +18,15 @@ const About = () => {
         <div className='row justify-content-around'>
           <div className='col-md-8 pr-lg-0'>
             <div className='text-center about-intro mb-4'>Earn $WCP by betting on matches or owning NFT players!</div>
+          
           <div className='d-flex flex-wrap justify-content-between'>
+          <a href='https://dapp.worldcuppot.io/' className='abt-card-link'>
             <div className='card about-card left-card d-flex justify-content-lg-end justify-content-center p-4 flex-wrap'>
                <div className='card-bottom-txt'>
                   Bet on World Cup 2022 matches
                 </div>
             </div>
+            </a>
             <div className='card about-card right-card d-flex justify-content-lg-end justify-content-center p-4 flex-wrap'>
               <div className='text-center'>
                <div className='card-bottom-txt'>
@@ -33,7 +36,8 @@ const About = () => {
                
                 </div>
             </div>
-          </div>        
+          </div>
+         
         </div>
         </div>
         <div className='row justify-content-around mt-4'>
