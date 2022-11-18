@@ -3,6 +3,7 @@
 import team1 from '../../../assets/images/teams/team1.png';
 import team2 from '../../../assets/images/teams/team2.png';
 import team3 from '../../../assets/images/teams/team3.png';
+import team4 from '../../../assets/images/teams/team4.png';
 import React, { Component } from "react";
 import Slider from "react-slick";
 
@@ -109,6 +110,24 @@ export default class Teams extends React.Component {
                               <div className='name mb-2'>@AdrianeCM</div>
                               <div className='destination mb-3'>Community Moderator </div>
                               <div className='mb-3 desc'>Community lead across big projects. Passionate to start his own and make it long lasting.</div>
+                              <ul className='d-flex socials-icon'>
+                                <li><a href='javascript:;'><i className="fa fa-telegram fa-1x mr-3"/></a></li>
+                              </ul>
+                            </div>
+                           </div>
+                          </div>
+                           {/* slider 4 */}
+                           <div>
+                          <div className='d-flex flex-lg-nowrap flex-wrap'>
+                            <div className='mr-lg-5'>
+                            <div className='img-circle'>
+                              <img src={team4}  className="img-fluid"/>
+                            </div>
+                            </div>
+                            <div>
+                              <div className='name mb-2'>@Eloncapitan</div>
+                              <div className='destination mb-3'>Founder</div>
+                              <div className='mb-3 desc'>Founder of Elondogeio</div>
                               <ul className='d-flex socials-icon'>
                                 <li><a href='javascript:;'><i className="fa fa-telegram fa-1x mr-3"/></a></li>
                               </ul>
