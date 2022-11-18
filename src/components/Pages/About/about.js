@@ -3,7 +3,6 @@ import game12 from '../../../assets/images/game12.jpg';
 import blinkimg from '../../../assets/images/blink-img.png';
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
-
 import $ from 'jquery';
 const About = () => {
 
@@ -15,6 +14,7 @@ const About = () => {
           {/* <div className='title-style title-style-sm pb-1 mb-4'>
             <h2>SOCCER MATCHES</h2>
         </div> */}
+        
         <div className='row justify-content-around'>
           <div className='col-md-8 pr-lg-0'>
             <div className='text-center about-intro mb-4'>Earn $WCP by betting on matches or owning NFT players!</div>
@@ -50,6 +50,13 @@ const About = () => {
           </div>        
         </div>
         </div>
+        <div className='row justify-content-around mt-5'>
+          <div className='col-md-8 mt-5'>
+            <iframe width="100%" height="500" src="https://www.youtube.com/embed/Dw3pTRgqQMU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            </div>
+          
+     
         {/* <div className="row align-items-center">       
         <div className="col-lg-12 mt-lg-0 pt-lg-0">
         <Tabs defaultActiveKey="game12"  id="tab-example"  className="mb-3" >

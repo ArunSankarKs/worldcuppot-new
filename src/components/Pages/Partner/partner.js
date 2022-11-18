@@ -3,7 +3,7 @@ import sliderImg from '../../../assets/images/slider-1.png';
 import React, { Component } from "react";
 import Slider from "react-slick";
 
-
+import PropTypes from "prop-types";
 
 // const Overview = () => {
 //   return(     
@@ -52,12 +52,13 @@ export default class Partner extends React.Component {
       {sliderimg:sliderImg},
       {sliderimg:sliderImg}
     ]
+
+
     return (
       <div className='container-fluid'>
       <div className="container">
           <div className="section-effect overview-sec">
-       
-
+           
           <div className='title-style pb-1  text-center'>
             <h2>TECH PARTNERS</h2>
         </div>

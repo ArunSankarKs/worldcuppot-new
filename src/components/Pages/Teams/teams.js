@@ -2,6 +2,7 @@
 // import React, {Component} from "react";
 import team1 from '../../../assets/images/teams/team1.png';
 import team2 from '../../../assets/images/teams/team2.png';
+import team3 from '../../../assets/images/teams/team3.png';
 import React, { Component } from "react";
 import Slider from "react-slick";
 
@@ -70,7 +71,7 @@ export default class Teams extends React.Component {
                             </div>                           
                             <div className='pr-lg-5'>
                               <div className='name mb-2'>@wcpfounder</div>
-                              <div className='destination mb-3'>creative leader</div>
+                              <div className='destination mb-3'>Creative Leader</div>
                               <div className='mb-3 desc'>Sports enthusiast and crypto native geek who loves to help others be a success in blockchain.</div>
                               <ul className='d-flex socials-icon'>
                                 <li><a href='javascript:;'><i className="fa fa-twitter fa-1x mr-3"/></a></li>
@@ -87,8 +88,26 @@ export default class Teams extends React.Component {
                             </div>
                             </div>
                             <div>
-                              <div className='name mb-2'>@skylarkingcrypto</div>
-                              <div className='destination mb-3'>product guy</div>
+                              <div className='name mb-2'>@potfounder22</div>
+                              <div className='destination mb-3'>Product Guy</div>
+                              <div className='mb-3 desc'>Based community moderator with great socialising and engaging skills. Worked with key projects in the space.</div>
+                              <ul className='d-flex socials-icon'>
+                                <li><a href='javascript:;'><i className="fa fa-telegram fa-1x mr-3"/></a></li>
+                              </ul>
+                            </div>
+                           </div>
+                          </div>
+                          {/* slider 3 */}
+                          <div>
+                          <div className='d-flex flex-lg-nowrap flex-wrap'>
+                            <div className='mr-lg-5'>
+                            <div className='img-circle'>
+                              <img src={team3}  className="img-fluid"/>
+                            </div>
+                            </div>
+                            <div>
+                              <div className='name mb-2'>@AdrianeCM</div>
+                              <div className='destination mb-3'>Community Moderator </div>
                               <div className='mb-3 desc'>Community lead across big projects. Passionate to start his own and make it long lasting.</div>
                               <ul className='d-flex socials-icon'>
                                 <li><a href='javascript:;'><i className="fa fa-telegram fa-1x mr-3"/></a></li>
