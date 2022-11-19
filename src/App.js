@@ -276,7 +276,7 @@ if ('IntersectionObserver' in window)  {
                                       <a className="nav-link" href="https://etherscan.io/token/0xda754d0b8e7a4a5597e3f3c09593e1621dc9f6d1">Contract</a>
                                     </li>
                                     <li className="nav-item">
-                                      <a className="nav-link" href="javascript:;">Pitch Deck</a>
+                                      <a className="nav-link" href="Coming Soon:;">Pitch Deck</a>
                                     </li>
                                     <li class="nav-item">
                                       <a className="nav-link" href="worldcuppot@gmail.com">Contact</a>
