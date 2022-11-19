@@ -134,9 +134,11 @@ if ('IntersectionObserver' in window)  {
          
 
           <ul className="navbar-nav ml-auto">
-          {/* <li class="nav-item">
-              <a className="nav-link" href="#home">WELCOME</a>
-            </li> */}
+            <li class="nav-item">
+              <a href="https://dapp.worldcuppot.io" target = "_blank" className="lp-btn btn lp-btn-sm primary-btn">
+              Launch Dapp
+              </a> 
+            </li>
              <li className="nav-item">
               <a className="nav-link"  href="#about">ABOUT</a>
             </li>
