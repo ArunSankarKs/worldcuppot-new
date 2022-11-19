@@ -247,19 +247,19 @@ if ('IntersectionObserver' in window)  {
                                 <div class="fw-quick-link">
                                     <ul>
                                     <li className="nav-item">
-                                      <a className="nav-link" href="https://coinmarketcap.com/currencies/world-cup-pot/">CoinMarketCap</a>
+                                      <a className="nav-link" href="https://coinmarketcap.com/currencies/world-cup-pot/" target="_blank">CoinMarketCap</a>
                                     </li>
                                     <li className="nav-item">
-                                      <a className="nav-link" href="https://www.geckoterminal.com/eth/pools/0xff06393c6c42409a73ae0e5d4e2e2e9b4016c814">CoinGecko</a>
+                                      <a className="nav-link" href="https://www.geckoterminal.com/eth/pools/0xff06393c6c42409a73ae0e5d4e2e2e9b4016c814" target="_blank">CoinGecko</a>
                                     </li>
                                     <li class="nav-item">
-                                      <a className="nav-link" href="javascript:;">Opensea</a>
+                                      <a className="nav-link" href="Coming Soon:;">Opensea</a>
                                     </li>
                                     <li className="nav-item">
-                                      <a className="nav-link" href="https://etherscan.io/token/0xda754d0b8e7a4a5597e3f3c09593e1621dc9f6d1">EtherScan</a>
+                                      <a className="nav-link" href="https://etherscan.io/token/0xda754d0b8e7a4a5597e3f3c09593e1621dc9f6d1" target="_blank">EtherScan</a>
                                     </li>
                                     <li class="nav-item">
-                                      <a className="nav-link" href="https://app.uniswap.org/#/swap?outputCurrency=0xda754d0b8e7a4a5597e3f3c09593e1621dc9f6d1">Uniswap</a>
+                                      <a className="nav-link" href="https://app.uniswap.org/#/swap?outputCurrency=0xda754d0b8e7a4a5597e3f3c09593e1621dc9f6d1" target="_blank">Uniswap</a>
                                     </li>
                                     </ul>
                                 </div>
@@ -273,13 +273,13 @@ if ('IntersectionObserver' in window)  {
                                 <div class="fw-quick-link">
                                     <ul>
                                     <li className="nav-item">
-                                      <a className="nav-link" href="https://etherscan.io/token/0xda754d0b8e7a4a5597e3f3c09593e1621dc9f6d1">Contract</a>
+                                      <a className="nav-link" href="https://etherscan.io/token/0xda754d0b8e7a4a5597e3f3c09593e1621dc9f6d1" target="_blank">Contract</a>
                                     </li>
                                     <li className="nav-item">
                                       <a className="nav-link" href="Coming Soon:;">Pitch Deck</a>
                                     </li>
                                     <li class="nav-item">
-                                      <a className="nav-link" href="worldcuppot@gmail.com">Contact</a>
+                                      <a className="nav-link" href="worldcuppot@gmail.com" target="_blank">Contact</a>
                                     </li>
                                     </ul>
                                 </div>
