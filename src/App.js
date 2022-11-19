@@ -247,19 +247,19 @@ if ('IntersectionObserver' in window)  {
                                 <div class="fw-quick-link">
                                     <ul>
                                     <li className="nav-item">
-                                      <a className="nav-link" href="javascript:;">CoinMarketCap</a>
+                                      <a className="nav-link" href="https://coinmarketcap.com/currencies/world-cup-pot/">CoinMarketCap</a>
                                     </li>
                                     <li className="nav-item">
-                                      <a className="nav-link" href="javascript:;">CoinGecko</a>
+                                      <a className="nav-link" href="https://www.geckoterminal.com/eth/pools/0xff06393c6c42409a73ae0e5d4e2e2e9b4016c814">CoinGecko</a>
                                     </li>
                                     <li class="nav-item">
                                       <a className="nav-link" href="javascript:;">Opensea</a>
                                     </li>
                                     <li className="nav-item">
-                                      <a className="nav-link" href="javascript:;">EtherScan</a>
+                                      <a className="nav-link" href="https://etherscan.io/token/0xda754d0b8e7a4a5597e3f3c09593e1621dc9f6d1">EtherScan</a>
                                     </li>
                                     <li class="nav-item">
-                                      <a className="nav-link" href="javascript:;">Uniswap</a>
+                                      <a className="nav-link" href="https://app.uniswap.org/#/swap?outputCurrency=0xda754d0b8e7a4a5597e3f3c09593e1621dc9f6d1">Uniswap</a>
                                     </li>
                                     </ul>
                                 </div>
@@ -273,13 +273,13 @@ if ('IntersectionObserver' in window)  {
                                 <div class="fw-quick-link">
                                     <ul>
                                     <li className="nav-item">
-                                      <a className="nav-link" href="javascript:;">Contract</a>
+                                      <a className="nav-link" href="https://etherscan.io/token/0xda754d0b8e7a4a5597e3f3c09593e1621dc9f6d1">Contract</a>
                                     </li>
                                     <li className="nav-item">
                                       <a className="nav-link" href="javascript:;">Pitch Deck</a>
                                     </li>
                                     <li class="nav-item">
-                                      <a className="nav-link" href="javascript:;">Contact</a>
+                                      <a className="nav-link" href="worldcuppot@gmail.com">Contact</a>
                                     </li>
                                     </ul>
                                 </div>

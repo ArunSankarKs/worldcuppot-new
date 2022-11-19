@@ -8,7 +8,7 @@ const footer = () => {
       {/* <div className="row">
         <div className="col-lg-12">
         <div className="copyright-text">
-            <p>Copyright © 2021 <a href="#">OCTOCUSH</a> All Rights Reserved.</p>
+            <p>Copyright © 2021 <a href="#">WCP</a> All Rights Reserved.</p>
         </div>
         </div>
       </div> */}
