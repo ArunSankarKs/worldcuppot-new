@@ -56,7 +56,7 @@ const Banner = props => {
             <div>
               <p>WORLD CUP POT is for all the soccer loving degens out there!</p>
               <p>Collect soccer players NFTS then get $WCP airdrops if your players win in the daily simulation matches powered by Chainlink’s VRF and our soccer simulator engine.</p>
-              <p>You can also bet USDT on each match. </p>
+              <p>You can also bet $USDC(erc20) on each match. </p>
             </div>
           <div className="pt-4 launch-btn">
           <a href="https://app.uniswap.org/#/swap?outputCurrency=0xda754d0b8e7a4a5597e3f3c09593e1621dc9f6d1" target = "_blank"className="btn btn-outline lp-btn primary-btn mr-3">
